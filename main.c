@@ -1,20 +1,19 @@
 #include "main.h"
 
 
-void init()
-{
+void init() {
 }
 
-
-
-int main(void)
-{
+int main(void) {
 	cli();
 	init();
 	sei();
 	
-	while(1)
-	{
+  /* 
+  * To powinno być możliwie najmniejsze
+  * Program nigdy nie powinien opuścić tej pętli, inaczej undef behaviour
+    */
+	while(1) {
 
 	}
 	
