@@ -28,7 +28,7 @@ FORMAT = ihex
 
 
 # Target file name (without extension).
-TARGET = NAZWA_PROJEKTU
+TARGET = AVR_TEMPLATE
 
 # Object files directory
 #     To put object files in current directory, use a dot (.), do NOT make
